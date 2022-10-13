@@ -1,5 +1,7 @@
 # λ Typescript Serverless boilerplate
 
+[![Node.js CI](https://github.com/hebertcisco/typescript-serverless-boilerplate/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/hebertcisco/typescript-serverless-boilerplate/actions/workflows/build-and-test.yml)
+
 ## Running application
 
 ```sh
