@@ -1,0 +1,21 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# esbuild directories
+.esbuild
+
+# other directories
+.env
+tmp/*
+!tmp/.gitkeep
+.idea
+.vscode
+*.iml
+*.log
+# testing
+coverage
+.nyc_output
