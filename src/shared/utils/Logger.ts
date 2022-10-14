@@ -25,7 +25,7 @@ export class Logger {
   private handleWithContext(value: string) {
     const log_id = `\n[LogId]: ${crypto.randomUUID()}`;
     const context = `\n(ƒ: ${this.config?.context || Logger.name}) `;
-     return this.need_id ? log_id + context + value : context + value;
+    return this.need_id ? log_id + context + value : context + value;
   }
 }
 export default new Logger();
