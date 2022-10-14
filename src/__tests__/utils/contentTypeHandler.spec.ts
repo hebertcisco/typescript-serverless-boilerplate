@@ -1,5 +1,5 @@
 import { APIGatewayProxyEvent } from "aws-lambda";
-import { contentTypeHandler } from "../../utils/contentTypeHandler";
+import { contentTypeHandler } from "../../shared/helpers/contentTypeHandler";
 
 describe("contentTypeHandler", () => {
   it("should be able to create a new cat", async () => {

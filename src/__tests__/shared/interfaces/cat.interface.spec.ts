@@ -1,4 +1,5 @@
-import { CatInterface } from "../../../shared/interfaces/cat.interface";
+import { CatInterface } from "../../../modules/cats/interfaces/cat.interface";
+
 describe("CatInterface", () => {
   class CatImpl implements CatInterface {
     name: string;

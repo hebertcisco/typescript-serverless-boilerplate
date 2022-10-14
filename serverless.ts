@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import "dotenv/config";
 import type { AWS } from "@serverless/typescript";
 
@@ -24,7 +25,7 @@ const serverlessConfiguration: AWS = {
       events: [
         {
           http: {
-            path: "/",
+            path: "/list",
             method: "get",
             cors: true,
           },

@@ -1,4 +1,4 @@
-import { errorResponseHandler } from "../../utils/errorResponseHandler";
+import { errorResponseHandler } from "../../shared/helpers/errorResponseHandler";
 
 describe("errorResponseHandler", () => {
   it("should be able to create a new cat", async () => {

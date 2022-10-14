@@ -1,4 +1,4 @@
-import responseHandler from "../../utils/responseHandler";
+import responseHandler from "../../shared/helpers/responseHandler";
 
 describe("responseHandler", () => {
   it("should be able to create a new cat", async () => {

@@ -1,4 +1,4 @@
-import { ICreateCatDTO } from "../../dtos/ICreateCatDTO";
+import { ICreateCatDTO } from "../../modules/cats/dtos/ICreateCatDTO";
 
 describe("ICreateCatDTO", () => {
   class CreateCatImpl implements ICreateCatDTO {
