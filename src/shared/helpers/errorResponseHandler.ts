@@ -3,7 +3,7 @@ import { Logger } from "../utils/Logger";
 import type { TErrorResponse } from "../types/error-response-type";
 
 export function errorResponseHandler(error?: TErrorResponse) {
-  const logger: Logger = new Logger({ context: errorResponseHandler.name});
+  const logger: Logger = new Logger({ context: errorResponseHandler.name });
   if (error instanceof Error) {
     logger.error(error.message);
     return responseHandler.createResponse({

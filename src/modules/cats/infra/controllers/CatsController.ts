@@ -13,7 +13,7 @@ import type { IResponseHandlerReturn } from "../../../../shared/helpers/response
 import { Logger } from "../../../../shared/utils/Logger";
 
 export default class CatsController {
-  private logger: Logger = new Logger({ context: CatsController.name});
+  private logger: Logger = new Logger({ context: CatsController.name });
   private createCatService: CreateCatService = new CreateCatService();
   private listAllCatService: ListAllCatService = new ListAllCatService();
 
@@ -61,7 +61,7 @@ export default class CatsController {
       return errorResponseHandler(error);
     }
   }
-  public async list(
+  public async listAll(
     event: APIGatewayProxyEvent
   ): Promise<IResponseHandlerReturn> {
     const cats = await this.listAllCatService.execute();
