@@ -1,23 +1,17 @@
 import type { APIGatewayProxyEvent } from "aws-lambda";
-
+import { Router } from "../../../../shared/utils/Router";
 import CatsController from "../controllers/CatsController";
-
-import type { IResponseHandlerReturn } from "../../../../shared/helpers/responseHandler";
 
 export class CatsRoutes {
   private catsController: CatsController = new CatsController();
-  constructor(private event: APIGatewayProxyEvent) {}
-  private list() {
-    if (this.event.httpMethod === "GET" && this.event.path === "/list") {
-      return this.catsController.list(this.event);
-    }
+  private router: Router;
+  constructor(private event: APIGatewayProxyEvent) {
+    this.router = new Router(this.event);
   }
-  private create() {
-    if (this.event.httpMethod === "POST" && this.event.path === "/create") {
-      return this.catsController.create(this.event);
-    }
+  public listAll() {
+    return this.router.get("/list", this.catsController.listAll(this.event));
   }
-  public async invoke(): Promise<IResponseHandlerReturn> {
-    return this.list() || this.create();
+  public create() {
+    return this.router.post("/create", this.catsController.create(this.event));
   }
 }
