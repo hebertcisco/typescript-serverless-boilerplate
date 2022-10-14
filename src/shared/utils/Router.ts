@@ -1,5 +1,5 @@
 import type { APIGatewayProxyEvent } from "aws-lambda";
-import { IResponseHandlerReturn } from "../helpers/responseHandler";
+import type { IResponseHandlerReturn } from "../helpers/responseHandler";
 
 export class Router {
   constructor(private event: APIGatewayProxyEvent) {}
