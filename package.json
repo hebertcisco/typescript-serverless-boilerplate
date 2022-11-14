@@ -33,7 +33,7 @@
     "@types/jest": "29.0.3",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^16.11.7",
-    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.41.0",
     "esbuild": "^0.14.54",
     "eslint": "^8.27.0",
