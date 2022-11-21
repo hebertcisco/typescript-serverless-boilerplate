@@ -45,7 +45,7 @@
     "prettier": "^2.7.1",
     "serverless": "^3.24.1",
     "serverless-esbuild": "^1.33.1",
-    "serverless-offline": "^11.2.3",
+    "serverless-offline": "^11.5.0",
     "ts-jest": "29.0.3",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.1.0",
