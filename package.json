@@ -34,7 +34,7 @@
     "@types/mongoose": "^5.11.97",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.44.0",
-    "@typescript-eslint/parser": "^5.41.0",
+    "@typescript-eslint/parser": "^5.45.0",
     "esbuild": "^0.15.16",
     "eslint": "^8.27.0",
     "eslint-config-airbnb-base": "^15.0.0",
