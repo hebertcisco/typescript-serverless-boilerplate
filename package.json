@@ -25,7 +25,7 @@
     "@middy/core": "^3.6.2",
     "@middy/http-json-body-parser": "^3.6.2",
     "dotenv": "^16.0.3",
-    "mongoose": "^6.7.2"
+    "mongoose": "^6.7.5"
   },
   "devDependencies": {
     "@serverless/typescript": "^3.21.0",
