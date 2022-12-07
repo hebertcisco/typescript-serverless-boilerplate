@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@middy/core": "^4.0.2",
-    "@middy/http-json-body-parser": "^3.6.2",
+    "@middy/http-json-body-parser": "^4.0.2",
     "dotenv": "^16.0.3",
     "mongoose": "^6.7.5"
   },
