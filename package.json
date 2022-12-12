@@ -22,7 +22,7 @@
     "node": ">=16.17.0"
   },
   "dependencies": {
-    "@middy/core": "^4.0.2",
+    "@middy/core": "^4.0.5",
     "@middy/http-json-body-parser": "^4.0.2",
     "dotenv": "^16.0.3",
     "mongoose": "^6.8.0"
